@@ -2,7 +2,7 @@
   "name": "ElegantNight",
   "displayerName": "ElegantNight",
   "description": "tema dark",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "icon": "assets/ElegantNight-1.png",
   "keywords": ["theme","ElegantNight", "night", "dark"],
   "publisher": "Mauricios73",
@@ -16,6 +16,11 @@
           "label": "ElegantNight",
           "uiTheme": "vs-dark",
           "path": "./Projeto2 - Theme VScode/ElegantNight.json"
+        },
+        {
+          "label": "HouseLennister",
+          "uiTheme": "vs-dark",
+          "path": "./Projeto2 - Theme VScode/HouseLennister.json"
         }
     ]
   },
