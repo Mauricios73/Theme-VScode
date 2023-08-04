@@ -1,0 +1,30 @@
+{
+  "name": "ElegantNight",
+  "displayerName": "ElegantNight",
+  "description": "tema dark",
+  "version": "0.0.0",
+  "icon": "assets/ElegantNight-1.png",
+  "keywords": ["theme","ElegantNight", "night", "dark"],
+  "publisher": "Mauricios73",
+  "engines": {
+    "vscode": "^1.22.0"
+  },
+  "categories": ["Themes"],
+  "contributes": {
+    "themes": [
+        {
+          "label": "ElegantNight",
+          "uiTheme": "vs-dark",
+          "path": "./Projeto2 - Theme VScode/ElegantNight.json"
+        }
+    ]
+  },
+  "scripts": {
+    "package": "vsce package --no-yarn",
+    "publish": "vsce publish --no-yarn"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "vsce": "^2.5.0"
+  }
+}
